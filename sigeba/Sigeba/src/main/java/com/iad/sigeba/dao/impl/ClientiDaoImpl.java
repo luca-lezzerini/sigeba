@@ -19,23 +19,38 @@ public class ClientiDaoImpl implements ClientiDao {
                 risultato.add(cli);
             }
         }
-        
+
         return risultato;
     }
 
     @Override
-    public Cliente salvaCliente(Cliente cli) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public Cliente salvaCliente(Cliente clienteDaSalvare) {
+        for (Cliente clia : clienti) {
+            if (clia.().equals(clienteDaSalvare)) {
+                boolean aggiungi = clienti.add(clia);
+            }
+        }
+        return null;
     }
 
     @Override
-    public Cliente leggiCliente(long idCli) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public Cliente leggiCliente(Long idCli) {
+        List<Cliente> trova = new ArrayList<>();
+        for (Cliente clit : clienti) {
+            if (clit.getId().equals(idCli)) {
+                System.out.println(clit);
+            }
+        }
+        return null;
     }
 
     @Override
-    public void rimuoviCliente(long idCli) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void rimuoviCliente(Long idCli) {
+        List<Cliente> rimuoviCliente = new ArrayList<>();
+        for (Cliente clir : clienti) {
+            if (clir.getId().equals(idCli)) {
+                boolean rimuovi = clienti.remove(clir);
+            }
+        }
     }
-
 }
