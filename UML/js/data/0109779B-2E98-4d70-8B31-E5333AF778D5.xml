@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.1:1", "", "UI CRUD Clienti Ciclo di Vita", "EARoot/EA4/EA1/EA38.htm", "183.png", "33", "0", "", "Statechart diagram0","{39272C3A-BED9-4e0f-BA21-AC2E5BED2094}");
+tocTab[tocTab.length] = new Array("0.4.1:2", "", "Cancellazione", "EARoot/EA4/EA1/EA41.htm", "20.png", "E193", "0", "", "State0","{5BD5DDBF-BFEA-4a8f-97C7-4869B85BC2F2}");
+tocTab[tocTab.length] = new Array("0.4.1:3", "", "Initial", "EARoot/EA4/EA1/EA42.htm", "68.png", "E188", "0", "", "StateNode0","{2A3C5B9A-8E4C-489a-A671-F11AFA7B541A}");
+tocTab[tocTab.length] = new Array("0.4.1:4", "", "Inserimento", "EARoot/EA4/EA1/EA43.htm", "20.png", "E191", "0", "", "State0","{CFA44FB6-0645-47e6-9030-57F2A68898EE}");
+tocTab[tocTab.length] = new Array("0.4.1:5", "", "Modifica", "EARoot/EA4/EA1/EA44.htm", "20.png", "E192", "0", "", "State0","{D84E3C02-14F9-49ae-B699-0D177B9174E3}");
+tocTab[tocTab.length] = new Array("0.4.1:6", "", "Ricerca", "EARoot/EA4/EA1/EA45.htm", "20.png", "E189", "0", "", "State0","{FFC26B8D-5CF9-4608-B32D-C7DB36599D41}");
+tocTab[tocTab.length] = new Array("0.4.1:7", "", "Visualizzazione Lista", "EARoot/EA4/EA1/EA46.htm", "20.png", "E190", "0", "", "State0","{9CD3C853-CFCC-424a-85B4-83BF07DA86CB}");

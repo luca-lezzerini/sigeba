@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.6.1:1", "", "ClientiService", "EARoot/EA6/EA1/EA63.htm", "175.png", "30", "0", "", "Logical diagram0","{CF1E1717-B1C8-477d-AE5B-45C0B9780C83}");
-tocTab[tocTab.length] = new Array("0.6.1:2", "", "ClientiService", "EARoot/EA6/EA1/EA66.htm", "8.png", "E176", "0", "", "Interface0","{B787238E-0229-4002-95E4-D70321EBC102}");
-tocTab[tocTab.length] = new Array("0.6.1:3", "", "ClientiServiceImpl", "EARoot/EA6/EA1/EA67.htm", "5.png", "E172", "0", "", "Class0","{F0EF19A5-2E46-4c9a-B23B-1D9A590D5EBC}");
-tocTab[tocTab.length] = new Array("0.6.1:4", "", "ClientiServiceProxy", "EARoot/EA6/EA1/EA68.htm", "5.png", "E179", "0", "", "Class0","{F46C56FB-8D32-4a91-8BE2-EA8BD232A331}");
+tocTab[tocTab.length] = new Array("0.6.1:1", "", "ClientiService", "EARoot/EA6/EA1/EA75.htm", "175.png", "30", "0", "", "Logical diagram0","{CF1E1717-B1C8-477d-AE5B-45C0B9780C83}");
+tocTab[tocTab.length] = new Array("0.6.1:2", "", "ClientiService", "EARoot/EA6/EA1/EA78.htm", "8.png", "E176", "0", "", "Interface0","{B787238E-0229-4002-95E4-D70321EBC102}");
+tocTab[tocTab.length] = new Array("0.6.1:3", "", "ClientiServiceImpl", "EARoot/EA6/EA1/EA79.htm", "5.png", "E172", "0", "", "Class0","{F0EF19A5-2E46-4c9a-B23B-1D9A590D5EBC}");
+tocTab[tocTab.length] = new Array("0.6.1:4", "", "ClientiServiceProxy", "EARoot/EA6/EA1/EA80.htm", "5.png", "E179", "0", "", "Class0","{F46C56FB-8D32-4a91-8BE2-EA8BD232A331}");
