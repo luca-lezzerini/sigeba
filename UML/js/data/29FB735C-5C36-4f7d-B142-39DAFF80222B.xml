@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.1:1", "", "Movimenti e Conti", "EARoot/EA3/EA1/EA38.htm", "175.png", "22", "0", "", "Logical diagram0","{36B53237-3166-4298-A461-F30501C2F3E8}");
+tocTab[tocTab.length] = new Array("0.3.1:2", "", "Cliente", "EARoot/EA3/EA1/EA41.htm", "5.png", "E132", "0", "", "Class0","{61FF6948-FAD6-4506-9DEB-F3A9CB8AAEC6}");
+tocTab[tocTab.length] = new Array("0.3.1:3", "", "ContoCorrente", "EARoot/EA3/EA1/EA42.htm", "5.png", "E133", "0", "", "Class0","{FFCFB045-0718-43f4-938F-9527702DE643}");
+tocTab[tocTab.length] = new Array("0.3.1:4", "", "MovimentoCC", "EARoot/EA3/EA1/EA43.htm", "5.png", "E134", "0", "", "Class0","{0B91E8E7-9815-4bf4-90B5-3E1C9D241DA6}");

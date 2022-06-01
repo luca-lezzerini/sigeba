@@ -1,5 +1,6 @@
 tocTab[tocTab.length] = new Array("0.1", "1", "Casi d&#39;uso", "EARoot/EA1/EA3.htm", "31.png", "", "", "{2D73CEF5-5D9C-4626-8D81-EEA4E32DA5C1}", "Package");
 tocTab[tocTab.length] = new Array("0.2", "1", "Cicli di vita", "EARoot/EA2/EA20.htm", "31.png", "", "", "{354F9FC8-DCE4-400b-BDA0-5621E626142A}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "1", "Classi", "EARoot/EA3/EA36.htm", "31.png", "", "", "{D5EF107B-5446-45b9-AD01-5FAA4DBDDDA9}", "Package");
-tocTab[tocTab.length] = new Array("0.4", "1", "Interfacce Utente", "EARoot/EA4/EA39.htm", "31.png", "", "", "{813BF16B-2660-4e83-B6AF-BEDA63FC05C5}", "Package");
-tocTab[tocTab.length] = new Array("0.5", "1", "Processi", "EARoot/EA5/EA59.htm", "31.png", "", "", "{DDA2682B-0AC5-4f96-9613-8DA990F4ACE6}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Concetti di Business", "EARoot/EA3/EA36.htm", "31.png", "", "", "{D5EF107B-5446-45b9-AD01-5FAA4DBDDDA9}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Servizi", "EARoot/EA4/EA46.htm", "31.png", "", "", "{C84E2490-FA5F-4885-A232-339C62F40613}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Interfacce Utente", "EARoot/EA5/EA49.htm", "31.png", "", "", "{813BF16B-2660-4e83-B6AF-BEDA63FC05C5}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Processi", "EARoot/EA6/EA69.htm", "31.png", "", "", "{DDA2682B-0AC5-4f96-9613-8DA990F4ACE6}", "Package");
