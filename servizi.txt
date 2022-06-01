@@ -1,0 +1,4 @@
+List<Cliente> cercaCliente( String testoDaCercare )
+Cliente salvaCliente( Cliente cli )
+Cliente leggiCliente( Long IdCli )
+void rimuoviCliente( Long idCli )
