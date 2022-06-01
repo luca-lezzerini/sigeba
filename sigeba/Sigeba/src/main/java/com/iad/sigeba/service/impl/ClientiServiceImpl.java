@@ -9,19 +9,26 @@ public class ClientiServiceImpl implements ClientiService{
 
 	@Override
 	public List<Cliente> cercaCliente(String cliente) {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void salvaCliente(Cliente cli) {
+	public Cliente salvaCliente(Cliente cli) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	public void leggiCliente(long idCli) {
+	public Cliente leggiCliente(long idCli) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public void rimuoviCliente(long idCli) {
+		// TODO Auto-generated method stub
+
 	}
 
 }

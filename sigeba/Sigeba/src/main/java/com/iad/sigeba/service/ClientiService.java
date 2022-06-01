@@ -13,5 +13,4 @@ public abstract interface ClientiService {
 
     void rimuoviCliente(long idCli);
 
-    
 }
