@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.7.2:1", "", "CRUD Conto Corrente", "EARoot/EA7/EA2/EA89.htm", "188.png", "27", "0", "", "Custom diagram0","{CBBCDBDC-BF5D-4a32-BFDB-4F3ED12D0EBD}");
+tocTab[tocTab.length] = new Array("0.7.2:2", "", "«WireframeWebsite» Webpage1", "EARoot/EA7/EA2/EA92.htm", "11.png", "E149", "0", "", "Screen0","{F70275C5-A9D8-4ccb-A359-01EDD3BE3D3D}");
+tocTab[tocTab.length] = new Array("0.7.2:3", "", "«WireframeTextField» cerca C/C", "EARoot/EA7/EA2/EA93.htm", "16.png", "E160", "E149", "", "GUIElement0","{174ECBF0-7858-4e17-AEBD-2C0F702000C6}");
+tocTab[tocTab.length] = new Array("0.7.2:4", "", "«WireframeButton» Cerca C/C", "EARoot/EA7/EA2/EA94.htm", "16.png", "E161", "E149", "", "GUIElement0","{587C6582-B6C1-464d-8051-18CCCFE6F275}");
+tocTab[tocTab.length] = new Array("0.7.2:5", "", "«WireframeTextField» cerca cliente", "EARoot/EA7/EA2/EA95.htm", "16.png", "E150", "E149", "", "GUIElement0","{A23E3F50-7457-4bdd-B7C7-E397FA32D287}");
+tocTab[tocTab.length] = new Array("0.7.2:6", "", "«WireframeButton» Cerca Cliente", "EARoot/EA7/EA2/EA96.htm", "16.png", "E151", "E149", "", "GUIElement0","{4390B62F-42A2-40ba-87DC-8625FB0BA10E}");
+tocTab[tocTab.length] = new Array("0.7.2:7", "", "«WireframeClientArea» ClientArea1", "EARoot/EA7/EA2/EA97.htm", "16.png", "E154", "E149", "", "GUIElement0","{1F384151-39E5-46e6-B603-9F78B03B32F7}");
+tocTab[tocTab.length] = new Array("0.7.2:8", "", "«WireframeLabel» Cliente Paolo Rossi", "EARoot/EA7/EA2/EA98.htm", "16.png", "E158", "E149", "", "GUIElement0","{7E0361B4-72A0-4a66-AED5-01495A899D1E}");
+tocTab[tocTab.length] = new Array("0.7.2:9", "", "«WireframeButton» Modifica", "EARoot/EA7/EA2/EA99.htm", "16.png", "E163", "E149", "", "GUIElement0","{CFC0233B-F6FE-4984-A2C8-2985F535ED2F}");
+tocTab[tocTab.length] = new Array("0.7.2:10", "", "«WireframeButton» Rimuovi", "EARoot/EA7/EA2/EA100.htm", "16.png", "E164", "E149", "", "GUIElement0","{62A7D7C2-BE4D-41bc-8232-74996B9AE650}");
+tocTab[tocTab.length] = new Array("0.7.2:11", "", "«WireframeButton» Seleziona", "EARoot/EA7/EA2/EA101.htm", "16.png", "E153", "E149", "", "GUIElement0","{026569B0-8FFB-4165-8C39-56E0314FB5FF}");
+tocTab[tocTab.length] = new Array("0.7.2:12", "", "«WireframeTable» Table1", "EARoot/EA7/EA2/EA102.htm", "16.png", "E152", "E149", "", "GUIElement0","{B396D11C-8254-44ca-9F4D-34DF368E813D}");
+tocTab[tocTab.length] = new Array("0.7.2:13", "", "«WireframeTable» Table2", "EARoot/EA7/EA2/EA103.htm", "16.png", "E162", "E149", "", "GUIElement0","{129ABD99-82F7-42b1-B236-427401A892E5}");
+tocTab[tocTab.length] = new Array("0.7.2:14", "", "«WireframeButton» Annulla", "EARoot/EA7/EA2/EA104.htm", "16.png", "E157", "E154", "", "GUIElement0","{196F35EA-B743-4a0a-859C-45870955F699}");
+tocTab[tocTab.length] = new Array("0.7.2:15", "", "«WireframeLabel» Campi del C/C", "EARoot/EA7/EA2/EA105.htm", "16.png", "E155", "E154", "", "GUIElement0","{42CAFFAB-3D4B-42c0-96C2-8BAE60667C1A}");
+tocTab[tocTab.length] = new Array("0.7.2:16", "", "«WireframeButton» Salva", "EARoot/EA7/EA2/EA106.htm", "16.png", "E156", "E154", "", "GUIElement0","{61C580C4-F062-4f67-AA5C-FFCC2767FC0B}");
