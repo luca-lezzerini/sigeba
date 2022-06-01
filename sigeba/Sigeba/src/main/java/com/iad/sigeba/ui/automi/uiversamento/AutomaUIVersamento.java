@@ -1,14 +1,15 @@
-package com.iad.sigeba.ui.automi.crudcliente;
+package com.iad.sigeba.ui.automi.uiversamento;
 
+import com.iad.sigeba.ui.automi.crudcliente.*;
 import com.iad.sigeba.ui.automi.Event;
 import com.iad.sigeba.ui.automi.State;
 
-public class AutomaCrudCliente implements State {
+public class AutomaUIVersamento implements State {
 
     private State stato;
     private AutomaCrudClienteManageable gui;
 
-    public AutomaCrudCliente(AutomaCrudClienteManageable gui) {
+    public AutomaUIVersamento(AutomaCrudClienteManageable gui) {
         this.gui = gui;
         stato = new AttesaFiltroState();
     }

@@ -9,6 +9,7 @@ public class ClientiDaoImpl implements ClientiDao {
 
     // corrisponde al nostro database
     private final List<Cliente> clienti = new ArrayList<>();
+    private Long idCorrente = 1L;
 
     @Override
     public List<Cliente> cercaCliente(String testoDaCercare) {
@@ -25,31 +26,50 @@ public class ClientiDaoImpl implements ClientiDao {
 
     @Override
     public Cliente salvaCliente(Cliente clienteDaSalvare) {
-        for (Cliente clia : clienti) {
-            if (clia.().equals(clienteDaSalvare)) {
-                boolean aggiungi = clienti.add(clia);
+        Cliente risultato = null;
+        // se il cliente è nuovo, senza ID ...
+        if (clienteDaSalvare.getId() == null) {
+            clienteDaSalvare.setId(idCorrente++);
+            clienti.add(clienteDaSalvare);
+            risultato = clienteDaSalvare;
+        } else { // ... altrimenti lo cerco
+            boolean trovato = false;
+            for (Cliente cli : clienti) {
+                // se lo trovo ...
+                if (cli.getId().equals(clienteDaSalvare.getId())) {
+                    // .. lo modifico
+                    cli.setCognome(clienteDaSalvare.getCognome());
+                    cli.setIndirizzo(clienteDaSalvare.getIndirizzo());
+                    cli.setNome(clienteDaSalvare.getNome());
+                    risultato = cli;
+                    trovato = true;
+                    break;
+                }
+            }
+            if (!trovato) {
+                throw new RuntimeException();
             }
         }
-        return null;
+        return risultato;
     }
 
     @Override
     public Cliente leggiCliente(Long idCli) {
-        List<Cliente> trova = new ArrayList<>();
-        for (Cliente clit : clienti) {
-            if (clit.getId().equals(idCli)) {
-                System.out.println(clit);
+        Cliente risultato = null;
+        for (Cliente cli : clienti) {
+            if (cli.getId().equals(idCli)) {
+                risultato = cli;
+                break;
             }
         }
-        return null;
+        return risultato;
     }
 
     @Override
     public void rimuoviCliente(Long idCli) {
-        List<Cliente> rimuoviCliente = new ArrayList<>();
-        for (Cliente clir : clienti) {
-            if (clir.getId().equals(idCli)) {
-                boolean rimuovi = clienti.remove(clir);
+        for (Cliente cli : clienti) {
+            if (cli.getId().equals(idCli)) {
+                clienti.remove(cli);
             }
         }
     }

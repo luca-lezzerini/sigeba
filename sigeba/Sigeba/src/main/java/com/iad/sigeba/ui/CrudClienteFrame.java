@@ -2,7 +2,11 @@
  */
 package com.iad.sigeba.ui;
 
+import com.iad.sigeba.ui.automi.crudcliente.AnnullaEvent;
+import com.iad.sigeba.ui.automi.crudcliente.AutomaCrudCliente;
 import com.iad.sigeba.ui.automi.crudcliente.AutomaCrudClienteManageable;
+import com.iad.sigeba.ui.automi.crudcliente.CercaEvent;
+import com.iad.sigeba.ui.automi.crudcliente.VersaEvent;
 
 /**
  *
@@ -10,11 +14,14 @@ import com.iad.sigeba.ui.automi.crudcliente.AutomaCrudClienteManageable;
  */
 public class CrudClienteFrame extends javax.swing.JFrame implements AutomaCrudClienteManageable {
 
+    AutomaCrudCliente automa;
+
     /**
      * Creates new form CrudClienteFrame
      */
     public CrudClienteFrame() {
         initComponents();
+        automa = new AutomaCrudCliente(this);
     }
 
     /**
@@ -152,7 +159,7 @@ public class CrudClienteFrame extends javax.swing.JFrame implements AutomaCrudCl
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonCercaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCercaActionPerformed
-        // TODO add your handling code here:
+        automa.next(new CercaEvent());
     }//GEN-LAST:event_jButtonCercaActionPerformed
 
     private void jButtonNuovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNuovoActionPerformed
@@ -160,27 +167,27 @@ public class CrudClienteFrame extends javax.swing.JFrame implements AutomaCrudCl
     }//GEN-LAST:event_jButtonNuovoActionPerformed
 
     private void jButtonVersaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVersaActionPerformed
-        // TODO add your handling code here:
+        automa.next(new VersaEvent());
     }//GEN-LAST:event_jButtonVersaActionPerformed
 
     private void jButtonAnnullaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAnnullaActionPerformed
-        this.setVisible(false);
+        automa.next(new AnnullaEvent());
     }//GEN-LAST:event_jButtonAnnullaActionPerformed
-    
+
     @Override
     public void setSearchPanel(boolean b) {
         jTextFieldCercaCliente.setVisible(b);
         jButtonCerca.setVisible(b);
     }
-    
+
     @Override
     public void setClientePanel(boolean b) {
-        jSpinnerAssegni.setValue(b);
+        jSpinnerAssegni.setVisible(b);
         jSpinnerContanti.setVisible(b);
         jButtonAnnulla.setVisible(b);
         jButtonVersa.setVisible(b);
     }
-    
+
     @Override
     public void setTabellaClienti(boolean b) {
         jTableClienti.setVisible(b);
