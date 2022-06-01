@@ -1,6 +1,7 @@
 package com.iad.sigeba.dao.impl;
 
 import com.iad.sigeba.dao.ClientiDao;
+import com.iad.sigeba.model.Cliente;
 import java.util.List;
 
 public class ClientiDaoImpl  implements ClientiDao {

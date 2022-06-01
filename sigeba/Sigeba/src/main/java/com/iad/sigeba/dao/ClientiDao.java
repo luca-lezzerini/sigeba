@@ -1,5 +1,6 @@
 package com.iad.sigeba.dao;
 
+import com.iad.sigeba.model.Cliente;
 import java.util.List;
 
 public abstract interface ClientiDao {
