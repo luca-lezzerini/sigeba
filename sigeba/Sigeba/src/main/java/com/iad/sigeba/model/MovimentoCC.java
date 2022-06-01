@@ -5,8 +5,8 @@ import java.time.LocalTime;
 
 public class MovimentoCC {
 
-    private long Id;
-    private double importo;
+    private Long Id;
+    private Double importo;
     private LocalDate data;
     private LocalTime ora;
     private String causale;
