@@ -9,8 +9,8 @@ public interface ClientiService {
 
     Cliente salvaCliente(Cliente cli);
 
-    Cliente leggiCliente(long idCli);
+    Cliente leggiCliente(Long idCli);
 
-    void rimuoviCliente(long idCli);
+    void rimuoviCliente(Long idCli);
 
 }
