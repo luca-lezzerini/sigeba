@@ -5,28 +5,30 @@ import java.time.LocalTime;
 
 public class MovimentoCC {
 
-    private Long Id;
+    private Long id;
     private Double importo;
     private LocalDate data;
     private LocalTime ora;
     private String causale;
 
-    public MovimentoCC(long Id, double importo, LocalDate data, LocalTime ora, String causale) {
-        this.Id = Id;
+    public MovimentoCC(Long Id, Double importo, LocalDate data, LocalTime ora, String causale) {
+        this.id = id;
         this.importo = importo;
         this.data = data;
         this.ora = ora;
         this.causale = causale;
     }
+
+    
     
     
 
     public long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(long Id) {
-        this.Id = Id;
+        this.id = Id;
     }
 
     public double getImporto() {
