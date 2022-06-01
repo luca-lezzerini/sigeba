@@ -7,9 +7,9 @@ public abstract interface ClientiDao {
     
     List<Cliente> cercaCliente(String cliente);
 
-    void salvaCliente(Cliente cli);
+    Cliente salvaCliente(Cliente cli);
 
-    void leggiCliente(long idCli);
+    Cliente leggiCliente(long idCli);
 
     void rimuoviCliente(long idCli);
     
