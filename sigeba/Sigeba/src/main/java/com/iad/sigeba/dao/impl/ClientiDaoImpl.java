@@ -10,11 +10,6 @@ public class ClientiDaoImpl  implements ClientiDao {
     public List<Cliente> cercaCliente(String cliente) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
-    @Override
-    public void rimuoviCliente(long idCli) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 
     @Override
     public Cliente salvaCliente(Cliente cli) {
@@ -23,6 +18,11 @@ public class ClientiDaoImpl  implements ClientiDao {
 
     @Override
     public Cliente leggiCliente(long idCli) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+    @Override
+    public void rimuoviCliente(long idCli) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

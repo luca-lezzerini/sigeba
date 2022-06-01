@@ -3,7 +3,7 @@ package com.iad.sigeba.service;
 import com.iad.sigeba.model.Cliente;
 import java.util.List;
 
-public abstract interface ClientiService {
+public interface ClientiService {
     
     List<Cliente> cercaCliente(String cliente);
 
