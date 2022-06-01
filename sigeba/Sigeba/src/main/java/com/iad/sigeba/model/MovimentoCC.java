@@ -11,6 +11,16 @@ public class MovimentoCC {
     private LocalTime ora;
     private String causale;
 
+    public MovimentoCC(long Id, double importo, LocalDate data, LocalTime ora, String causale) {
+        this.Id = Id;
+        this.importo = importo;
+        this.data = data;
+        this.ora = ora;
+        this.causale = causale;
+    }
+    
+    
+
     public long getId() {
         return Id;
     }
