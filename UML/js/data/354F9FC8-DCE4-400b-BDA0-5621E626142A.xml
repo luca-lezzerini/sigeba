@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Cicli di vita", "EARoot/EA2/EA18.htm", "176.png", "20", "0", "", "Package diagram0","{65B25646-BD7C-42c8-A3A2-98535928E827}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "UI Versamento Ciclo di Vita", "EARoot/EA2/EA1/EA24.htm", "4.png", "", "", "{5CBE5F02-9FBF-4d6e-8015-CE490A764659}", "Package");
