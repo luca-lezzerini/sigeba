@@ -17,6 +17,4 @@ public interface ContiCorrentiService {
 	
 	List <ContoCorrente> cercaContoEsteso (String stringCC);
 
-    
-
 }
