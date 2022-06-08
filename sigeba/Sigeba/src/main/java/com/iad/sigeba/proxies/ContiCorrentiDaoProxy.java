@@ -30,6 +30,11 @@ public class ContiCorrentiDaoProxy implements ContiCorrentiService  {
     public void rimuoviCC(Long id) {
         contiCorrentiService.rimuoviCC(id);
     }
+
+    @Override
+    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
     
