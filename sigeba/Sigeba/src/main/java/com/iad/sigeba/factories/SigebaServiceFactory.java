@@ -14,7 +14,7 @@ public class SigebaServiceFactory {
     private static final MovimentiService movimentiService = new MovimentiServiceImpl() ;
 
 
-    public static ClientiService getClientiservice() {
+    public static ClientiService getClientiService() {
         return clientiService;
     }
     

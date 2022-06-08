@@ -1,19 +1,16 @@
 package com.iad.sigeba.proxies;
 
+import com.iad.sigeba.factories.SigebaServiceFactory;
 import com.iad.sigeba.model.Cliente;
 import com.iad.sigeba.model.ContoCorrente;
 import com.iad.sigeba.service.ContiCorrentiService;
-import com.iad.sigeba.service.impl.ContiCorrentiServiceImpl;
 import java.util.List;
-/**
- * 
- * @author use
- */
+
 public class ContiCorrentiServiceProxy implements ContiCorrentiService{
   
     
     
-    private final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl();
+    private final ContiCorrentiService contiCorrentiService = SigebaServiceFactory.getContiCorrentiService();
 
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String stringCC) {
