@@ -55,5 +55,9 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
         }
     }
 
+	@Override
+	public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+		return null;
+	}
 
 }

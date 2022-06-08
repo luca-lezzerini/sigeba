@@ -32,7 +32,9 @@ public class ContiCorrentiServiceProxy implements ContiCorrentiService{
         contiCorrentiService.rimuoviCC(id);
     }
 
-
-
+    @Override
+    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+        return contiCorrentiService.cercaContoEsteso(stringCC);
+    }
 
 }

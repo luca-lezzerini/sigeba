@@ -44,4 +44,12 @@ public class ContiCorrentiServiceImpl implements ContiCorrentiService{
         contiCorrentiDao.rimuoviCC(id);
     }
     
+    @Override
+    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+        if (stringCC == null || stringCC.contains(" ")) {
+            throw new RuntimeException();
+        }
+        return contiCorrentiDao.cercaContoEsteso(stringCC);
+    }
+    
 }
