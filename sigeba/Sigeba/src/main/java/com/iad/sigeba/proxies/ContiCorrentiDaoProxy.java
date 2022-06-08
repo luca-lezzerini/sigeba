@@ -1,5 +1,6 @@
 package com.iad.sigeba.proxies;
 
+import com.iad.sigeba.dao.ContiCorrentiDao;
 import com.iad.sigeba.model.Cliente;
 import com.iad.sigeba.model.ContoCorrente;
 import com.iad.sigeba.service.ContiCorrentiService;
@@ -7,7 +8,7 @@ import com.iad.sigeba.service.impl.ContiCorrentiServiceImpl;
 import java.util.List;
 
 
-public class ContiCorrentiDaoProxy implements ContiCorrentiService  {
+public class ContiCorrentiDaoProxy implements ContiCorrentiDao  {
     
     private final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl();
 
