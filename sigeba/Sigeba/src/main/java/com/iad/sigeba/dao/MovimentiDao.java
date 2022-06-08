@@ -4,10 +4,13 @@
  */
 package com.iad.sigeba.dao;
 
+import com.iad.sigeba.model.MovimentoCC;
+
 /**
  *
  * @author Utente
  */
 public interface MovimentiDao {
+    void versa(MovimentoCC versa);
     
 }
