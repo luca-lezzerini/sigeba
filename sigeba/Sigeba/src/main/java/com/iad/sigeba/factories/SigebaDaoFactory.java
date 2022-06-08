@@ -2,6 +2,7 @@ package com.iad.sigeba.factories;
 
 import com.iad.sigeba.dao.ClientiDao;
 import com.iad.sigeba.dao.ContiCorrentiDao;
+import com.iad.sigeba.dao.MovimentiDao;
 import com.iad.sigeba.dao.impl.ClientiDaoImpl;
 import com.iad.sigeba.dao.impl.ContiCorrentiDaoImpl;
 
@@ -9,6 +10,7 @@ public class SigebaDaoFactory {
 
     private static final ClientiDao clientiDao = new ClientiDaoImpl();
     private static final ContiCorrentiDao contiCorrentiDao = new ContiCorrentiDaoImpl() ;
+    private static final MovimentiDao movimentiDao = new MovimentiDaoImpl() ;
 
     private SigebaDaoFactory() {
     }
@@ -19,5 +21,9 @@ public class SigebaDaoFactory {
     
     public static ContiCorrentiDao getContiCorrentiDao() {
         return contiCorrentiDao;
+    }
+    
+    public static MovimentiDao getMovimentiDao() {
+        return movimentiDao;
     }
 }
