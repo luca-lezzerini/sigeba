@@ -27,8 +27,8 @@ public class ContiCorrentiDaoProxy implements ContiCorrentiService  {
     }
 
     @Override
-    public void rimuoviCC(ContoCorrente cc) {
-        contiCorrentiService.rimuoviCC(cc);
+    public void rimuoviCC(Long id) {
+        contiCorrentiService.rimuoviCC(id);
     }
     
     

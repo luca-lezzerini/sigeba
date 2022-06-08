@@ -3,17 +3,18 @@ package com.iad.sigeba.proxies;
 import com.iad.sigeba.model.Cliente;
 import com.iad.sigeba.model.ContoCorrente;
 import com.iad.sigeba.service.ContiCorrentiService;
+import com.iad.sigeba.service.impl.ContiCorrentiServiceImpl;
 import java.util.List;
 
 public class ContiCorrentiServiceProxy implements ContiCorrentiService{
   
     
     
-    private final ContiCorrentiService contiCorrentiService = new ContiCorrentServiceImpl();
+    private final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl();
 
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String stringCC) {
-        return contiCorrentiService.cercaConto(conto);
+        return contiCorrentiService.cercaCCPerCliente(cli, "");
     }
 
     @Override
@@ -27,8 +28,8 @@ public class ContiCorrentiServiceProxy implements ContiCorrentiService{
     }
 
     @Override
-    public void rimuoviCC(ContoCorrente cc) {
-        contiCorrentiService.rimuoviCC(cc);
+    public void rimuoviCC(Long id) {
+        contiCorrentiService.rimuoviCC(id);
     }
 
 

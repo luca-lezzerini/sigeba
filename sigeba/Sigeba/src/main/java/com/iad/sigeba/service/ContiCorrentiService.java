@@ -13,6 +13,6 @@ public interface ContiCorrentiService {
 
 	ContoCorrente leggiCC (Long id);
 
-	void rimuoviCC (ContoCorrente cc);
+	void rimuoviCC (Long id);
 
 }

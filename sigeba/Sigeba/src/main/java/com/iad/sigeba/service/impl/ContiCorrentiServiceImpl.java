@@ -1,6 +1,7 @@
 
 package com.iad.sigeba.service.impl;
 
+import com.iad.sigeba.dao.ContiCorrentiDao;
 import com.iad.sigeba.factories.SigebaDaoFactory;
 import com.iad.sigeba.model.Cliente;
 import com.iad.sigeba.model.ContoCorrente;
@@ -9,7 +10,7 @@ import java.util.List;
 
 public class ContiCorrentiServiceImpl implements ContiCorrentiService{
     
-    private final ContiCorrentiDao contiCorrentiDao = SigebaDaoFactory.getClientiDao();
+    private final ContiCorrentiDao contiCorrentiDao = SigebaDaoFactory.getContiCorrentiDao();
 
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String stringCC) {
@@ -36,11 +37,11 @@ public class ContiCorrentiServiceImpl implements ContiCorrentiService{
     }
 
     @Override
-    public void rimuoviCC(ContoCorrente cc) {
-        if (cc == null) {
+    public void rimuoviCC(Long id) {
+        if (id == null) {
             throw new RuntimeException();
         }
-        contiCorrentiDao.rimuoviCC(cc);
+        contiCorrentiDao.rimuoviCC(id);
     }
     
 }
