@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.3:1", "", "Movimenti DAO", "EARoot/EA1/EA3/EA19.htm", "175.png", "37", "0", "", "Logical diagram0","{1C5E935C-7107-4955-8FFD-8F6B6B7673FE}");
+tocTab[tocTab.length] = new Array("0.1.3:2", "", "MovimentiDao", "EARoot/EA1/EA3/EA22.htm", "8.png", "E212", "0", "", "Interface0","{1DA34D4B-8F48-4501-BCB8-9F0010155573}");
+tocTab[tocTab.length] = new Array("0.1.3:3", "", "MovimentiDaoImpl", "EARoot/EA1/EA3/EA23.htm", "5.png", "E210", "0", "", "Class0","{065388DB-96F5-4d11-9BE4-72806804BC52}");
+tocTab[tocTab.length] = new Array("0.1.3:4", "", "MovimentiDaoProxy", "EARoot/EA1/EA3/EA24.htm", "5.png", "E211", "0", "", "Class0","{04D80BEB-C14F-4320-AE4C-D0C1C80BB3C2}");

@@ -1,3 +1,4 @@
 tocTab[tocTab.length] = new Array("0.1:1", "", "DAO", "EARoot/EA1/EA1.htm", "175.png", "28", "0", "", "Logical diagram0","{FBD3AAEC-6261-40cb-8FD7-F7354EAED414}");
-tocTab[tocTab.length] = new Array("0.1.1", "1", "Clienti DAO", "EARoot/EA1/EA1/EA8.htm", "4.png", "", "", "{4528E09E-F113-43cf-9B10-B29E65D5265A}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "Conti Correnti DAO", "EARoot/EA1/EA2/EA14.htm", "4.png", "", "", "{70072DFB-B538-4e06-9470-A3944A8F9024}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1", "1", "Clienti DAO", "EARoot/EA1/EA1/EA9.htm", "4.png", "", "", "{4528E09E-F113-43cf-9B10-B29E65D5265A}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "1", "Conti Correnti DAO", "EARoot/EA1/EA2/EA15.htm", "4.png", "", "", "{70072DFB-B538-4e06-9470-A3944A8F9024}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3", "1", "Movimenti DAO", "EARoot/EA1/EA3/EA21.htm", "4.png", "", "", "{F349CB66-3CF2-4de7-B0B3-B7A3FC7C7096}", "Package");
