@@ -66,5 +66,10 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
         }
     }
 
+    @Override
+    public List<ContoCorrente> cercaContoEsteso(String cc) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 
 }
