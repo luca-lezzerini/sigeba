@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.4:1", "", "Cicli di vita", "EARoot/EA4/EA33.htm", "176.png", "20", "0", "", "Package diagram0","{65B25646-BD7C-42c8-A3A2-98535928E827}");
-tocTab[tocTab.length] = new Array("0.4.1", "1", "UI CRUD Clienti Ciclo di Vita", "EARoot/EA4/EA1/EA40.htm", "4.png", "", "", "{0109779B-2E98-4d70-8B31-E5333AF778D5}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2", "1", "UI Versamento Ciclo di Vita", "EARoot/EA4/EA2/EA49.htm", "4.png", "", "", "{5CBE5F02-9FBF-4d6e-8015-CE490A764659}", "Package");
+tocTab[tocTab.length] = new Array("0.4:1", "", "Cicli di vita", "EARoot/EA4/EA40.htm", "176.png", "20", "0", "", "Package diagram0","{65B25646-BD7C-42c8-A3A2-98535928E827}");
+tocTab[tocTab.length] = new Array("0.4.1", "1", "UI CRUD Clienti Ciclo di Vita", "EARoot/EA4/EA1/EA47.htm", "4.png", "", "", "{0109779B-2E98-4d70-8B31-E5333AF778D5}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2", "1", "UI Versamento Ciclo di Vita", "EARoot/EA4/EA2/EA56.htm", "4.png", "", "", "{5CBE5F02-9FBF-4d6e-8015-CE490A764659}", "Package");

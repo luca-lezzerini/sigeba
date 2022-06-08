@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>n. conto / cliente</title>
+<title>Visualizzazione Lista</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> n. conto / cliente </h1>
+			<h1> Visualizzazione Lista </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Sistema Bancario</a> / <a href="../EA39.htm">Interfacce Utente</a> / <a href="EA43.htm">UI Versamento</a> / <a href="EA45.htm">Webpage1</a> / <a href="EA53.htm">n. conto / cliente</a></p>
+			<p><a href="../../../index.htm">Sistema Bancario</a> / <a href="../EA42.htm">Cicli di vita</a> / <a href="EA47.htm">UI CRUD Clienti Ciclo di Vita</a> / <a href="EA53.htm">Visualizzazione Lista</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,20 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA45.htm">Webpage1</a></ul>
+<a href="EA47.htm">UI CRUD Clienti Ciclo di Vita</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">n. conto / cliente  : Public  &lt;&lt;WireframeTextField&gt;&gt; Text</span>
+	<span class="ObjectTitle">Visualizzazione Lista  : Public   State</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">01/06/2022 09:15:54</td>
+			<td width="85%" class="ObjectDetailsValue">01/06/2022 17:06:35</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">01/06/2022 09:16:44</td>
+			<td class="ObjectDetailsValue">01/06/2022 17:06:40</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,32 +142,98 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{4F25CB37-5FDC-4e36-941E-1C445AE9B444}</td>
+			<td class="ObjectDetailsValue">{9CD3C853-CFCC-424a-85B4-83BF07DA86CB}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA41.htm">UI Versamento</a></td>
+			<td class="ObjectDetailsValue"><a href="EA45.htm">UI CRUD Clienti Ciclo di Vita</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table class="Table ea_table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isFinalSpecialization:</td>
-				<td width="70%" class="TableRow">0</td>
-			</tr>
-
-
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA51.htm">Modifica</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow42" /></button>Details:
+							<div id="detailsDIVLinkFlow42" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA48.htm">Cancellazione</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow43" /></button>Details:
+							<div id="detailsDIVLinkFlow43" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA50.htm">Inserimento</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow44" /></button>Details:
+							<div id="detailsDIVLinkFlow44" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 			</table>
-		</div>	</div>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA52.htm">Ricerca</a><br />
+						State &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow45" /></button>Details:
+							<div id="detailsDIVLinkFlow45" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
  </div>
  </td>
 				</tr>

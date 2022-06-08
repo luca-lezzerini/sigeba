@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.1:1", "", "Clienti DAO", "EARoot/EA1/EA1/EA5.htm", "175.png", "31", "0", "", "Logical diagram0","{C5DA33FB-6039-482c-8131-096E2EAACBDC}");
-tocTab[tocTab.length] = new Array("0.1.1:2", "", "ClientiDaoProxy", "EARoot/EA1/EA1/EA8.htm", "5.png", "E180", "0", "", "Class0","{87BC9A1B-EE1A-4738-8CE3-8DCD57707814}");
-tocTab[tocTab.length] = new Array("0.1.1:3", "", "ClientiDao", "EARoot/EA1/EA1/EA9.htm", "8.png", "E178", "0", "", "Interface0","{CF698DB5-E806-4e53-A1BC-5F605BE968B4}");
-tocTab[tocTab.length] = new Array("0.1.1:4", "", "ClientiDaoImpl", "EARoot/EA1/EA1/EA10.htm", "5.png", "E175", "0", "", "Class0","{CE7EFE0C-3698-4c04-9805-1E70968A252F}");
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "Clienti DAO", "EARoot/EA1/EA1/EA6.htm", "175.png", "31", "0", "", "Logical diagram0","{C5DA33FB-6039-482c-8131-096E2EAACBDC}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "ClientiDaoProxy", "EARoot/EA1/EA1/EA9.htm", "5.png", "E180", "0", "", "Class0","{87BC9A1B-EE1A-4738-8CE3-8DCD57707814}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "ClientiDao", "EARoot/EA1/EA1/EA10.htm", "8.png", "E178", "0", "", "Interface0","{CF698DB5-E806-4e53-A1BC-5F605BE968B4}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "ClientiDaoImpl", "EARoot/EA1/EA1/EA11.htm", "5.png", "E175", "0", "", "Class0","{CE7EFE0C-3698-4c04-9805-1E70968A252F}");
