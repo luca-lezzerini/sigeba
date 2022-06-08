@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.6.3:1", "", "MovimentiService", "EARoot/EA6/EA3/EA103.htm", "175.png", "36", "0", "", "Logical diagram0","{052D82C3-8C80-4110-9336-56C9F0398A82}");
+tocTab[tocTab.length] = new Array("0.6.3:2", "", "MovimentiService", "EARoot/EA6/EA3/EA106.htm", "8.png", "E208", "0", "", "Interface0","{90CD3237-9F52-46bf-B864-DA1AB0AAD18D}");
+tocTab[tocTab.length] = new Array("0.6.3:3", "", "MovimentiServiceImpl", "EARoot/EA6/EA3/EA107.htm", "5.png", "E206", "0", "", "Class0","{50CF773A-71DC-4fb0-8299-2BD36D4F46C1}");
+tocTab[tocTab.length] = new Array("0.6.3:4", "", "MovimentiServiceProxy", "EARoot/EA6/EA3/EA108.htm", "5.png", "E207", "0", "", "Class0","{4798383C-566B-4f1b-912E-0FCB6161C3B9}");

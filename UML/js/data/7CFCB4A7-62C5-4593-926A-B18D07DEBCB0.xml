@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.3.2:1", "", "Sportello", "EARoot/EA3/EA2/EA31.htm", "180.png", "17", "0", "", "Use Case diagram0","{67322EB6-902A-4d2f-AC99-2700234BE477}");
-tocTab[tocTab.length] = new Array("0.3.2:2", "", "Cassiere", "EARoot/EA3/EA2/EA34.htm", "6.png", "E99", "0", "", "Actor0","{3CCB9772-B838-46da-897B-8F10D74E3FCE}");
-tocTab[tocTab.length] = new Array("0.3.2:3", "", "Estratto conto", "EARoot/EA3/EA2/EA35.htm", "7.png", "E102", "0", "", "UseCase0","{79B286DB-077B-45b8-8EE0-9129D0C3DCED}");
-tocTab[tocTab.length] = new Array("0.3.2:4", "", "Prelievo", "EARoot/EA3/EA2/EA36.htm", "7.png", "E101", "0", "", "UseCase0","{2DC01CAB-111F-4d14-A094-FD6EFAA5628E}");
-tocTab[tocTab.length] = new Array("0.3.2:5", "", "Versamento", "EARoot/EA3/EA2/EA37.htm", "7.png", "E100", "0", "", "UseCase0","{7F551B27-F5A0-42a8-98DC-1ED281B75B41}");
-tocTab[tocTab.length] = new Array("0.3.2:6", "", "Versamento Assegni", "EARoot/EA3/EA2/EA38.htm", "7.png", "E104", "0", "", "UseCase0","{75A8BCB5-6AD0-49a0-A13D-44F320CF7534}");
-tocTab[tocTab.length] = new Array("0.3.2:7", "", "Versamento Contanti", "EARoot/EA3/EA2/EA39.htm", "7.png", "E103", "0", "", "UseCase0","{F57395FC-E911-41e2-B460-9BFEBC6FCFBB}");
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "Sportello", "EARoot/EA3/EA2/EA38.htm", "180.png", "17", "0", "", "Use Case diagram0","{67322EB6-902A-4d2f-AC99-2700234BE477}");
+tocTab[tocTab.length] = new Array("0.3.2:2", "", "Cassiere", "EARoot/EA3/EA2/EA41.htm", "6.png", "E99", "0", "", "Actor0","{3CCB9772-B838-46da-897B-8F10D74E3FCE}");
+tocTab[tocTab.length] = new Array("0.3.2:3", "", "Estratto conto", "EARoot/EA3/EA2/EA42.htm", "7.png", "E102", "0", "", "UseCase0","{79B286DB-077B-45b8-8EE0-9129D0C3DCED}");
+tocTab[tocTab.length] = new Array("0.3.2:4", "", "Prelievo", "EARoot/EA3/EA2/EA43.htm", "7.png", "E101", "0", "", "UseCase0","{2DC01CAB-111F-4d14-A094-FD6EFAA5628E}");
+tocTab[tocTab.length] = new Array("0.3.2:5", "", "Versamento", "EARoot/EA3/EA2/EA44.htm", "7.png", "E100", "0", "", "UseCase0","{7F551B27-F5A0-42a8-98DC-1ED281B75B41}");
+tocTab[tocTab.length] = new Array("0.3.2:6", "", "Versamento Assegni", "EARoot/EA3/EA2/EA45.htm", "7.png", "E104", "0", "", "UseCase0","{75A8BCB5-6AD0-49a0-A13D-44F320CF7534}");
+tocTab[tocTab.length] = new Array("0.3.2:7", "", "Versamento Contanti", "EARoot/EA3/EA2/EA46.htm", "7.png", "E103", "0", "", "UseCase0","{F57395FC-E911-41e2-B460-9BFEBC6FCFBB}");

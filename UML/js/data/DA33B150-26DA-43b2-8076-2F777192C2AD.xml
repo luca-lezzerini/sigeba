@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.8.1:1", "", "Sequence Classi Che ...", "EARoot/EA8/EA1/EA154.htm", "185.png", "29", "0", "", "Sequence diagram0","{4DD5FB64-8936-4ce2-BAC2-95100D265699}");
-tocTab[tocTab.length] = new Array("0.8.1:2", "", "«DAO/Repository» ClasseCheAccedeACose", "EARoot/EA8/EA1/EA157.htm", "57.png", "E169", "0", "", "Sequence0","{9774F1FC-44F8-4c29-B18C-DA9B434F3971}");
-tocTab[tocTab.length] = new Array("0.8.1:3", "", "«Servizio» ClasseCheFaCose", "EARoot/EA8/EA1/EA158.htm", "57.png", "E168", "0", "", "Sequence0","{69BC4013-B430-4102-961C-789EC1BD38A4}");
-tocTab[tocTab.length] = new Array("0.8.1:4", "", "«Model/Entità» ClasseCheRicordaCose", "EARoot/EA8/EA1/EA159.htm", "57.png", "E170", "0", "", "Sequence0","{6B1970E6-4538-42ed-8E82-B39C8046F205}");
-tocTab[tocTab.length] = new Array("0.8.1:5", "", "«View» ClasseCheVisualizzaCose", "EARoot/EA8/EA1/EA160.htm", "57.png", "E167", "0", "", "Sequence0","{A5DE2662-1948-49b1-BD1C-12D478452CCC}");
+tocTab[tocTab.length] = new Array("0.8.1:1", "", "Sequence Classi Che ...", "EARoot/EA8/EA1/EA168.htm", "185.png", "29", "0", "", "Sequence diagram0","{4DD5FB64-8936-4ce2-BAC2-95100D265699}");
+tocTab[tocTab.length] = new Array("0.8.1:2", "", "«DAO/Repository» ClasseCheAccedeACose", "EARoot/EA8/EA1/EA171.htm", "57.png", "E169", "0", "", "Sequence0","{9774F1FC-44F8-4c29-B18C-DA9B434F3971}");
+tocTab[tocTab.length] = new Array("0.8.1:3", "", "«Servizio» ClasseCheFaCose", "EARoot/EA8/EA1/EA172.htm", "57.png", "E168", "0", "", "Sequence0","{69BC4013-B430-4102-961C-789EC1BD38A4}");
+tocTab[tocTab.length] = new Array("0.8.1:4", "", "«Model/Entità» ClasseCheRicordaCose", "EARoot/EA8/EA1/EA173.htm", "57.png", "E170", "0", "", "Sequence0","{6B1970E6-4538-42ed-8E82-B39C8046F205}");
+tocTab[tocTab.length] = new Array("0.8.1:5", "", "«View» ClasseCheVisualizzaCose", "EARoot/EA8/EA1/EA174.htm", "57.png", "E167", "0", "", "Sequence0","{A5DE2662-1948-49b1-BD1C-12D478452CCC}");
