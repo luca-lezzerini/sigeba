@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.2:1", "", "Conti Correnti DAO", "EARoot/EA1/EA2/EA12.htm", "175.png", "35", "0", "", "Logical diagram0","{65F3A8E9-D3B2-4850-9634-99A0DB18ADBC}");
-tocTab[tocTab.length] = new Array("0.1.2:2", "", "ContiCorrentiDao", "EARoot/EA1/EA2/EA15.htm", "8.png", "E203", "0", "", "Interface0","{1F2553AE-235B-4ee8-BE6C-714D77A27539}");
-tocTab[tocTab.length] = new Array("0.1.2:3", "", "ContiCorrentiDaoImpl", "EARoot/EA1/EA2/EA16.htm", "5.png", "E201", "0", "", "Class0","{8E9B7F04-8D93-42b3-A34B-25449FABBEBD}");
-tocTab[tocTab.length] = new Array("0.1.2:4", "", "ContiCorrentiDaoProxy", "EARoot/EA1/EA2/EA17.htm", "5.png", "E202", "0", "", "Class0","{561D29B3-AAED-4cdc-B6AE-D19935F16CAC}");
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "Conti Correnti DAO", "EARoot/EA1/EA2/EA13.htm", "175.png", "35", "0", "", "Logical diagram0","{65F3A8E9-D3B2-4850-9634-99A0DB18ADBC}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "ContiCorrentiDao", "EARoot/EA1/EA2/EA16.htm", "8.png", "E203", "0", "", "Interface0","{1F2553AE-235B-4ee8-BE6C-714D77A27539}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "ContiCorrentiDaoImpl", "EARoot/EA1/EA2/EA17.htm", "5.png", "E201", "0", "", "Class0","{8E9B7F04-8D93-42b3-A34B-25449FABBEBD}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "ContiCorrentiDaoProxy", "EARoot/EA1/EA2/EA18.htm", "5.png", "E202", "0", "", "Class0","{561D29B3-AAED-4cdc-B6AE-D19935F16CAC}");
