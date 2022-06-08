@@ -1,40 +1,40 @@
 package com.iad.sigeba.proxies;
 
 import com.iad.sigeba.dao.ContiCorrentiDao;
-import com.iad.sigeba.factories.SigebaDaoFactory;
 import com.iad.sigeba.model.Cliente;
 import com.iad.sigeba.model.ContoCorrente;
 import com.iad.sigeba.service.ContiCorrentiService;
+import com.iad.sigeba.service.impl.ContiCorrentiServiceImpl;
 import java.util.List;
 
 
-public class ContiCorrentiDaoProxy implements ContiCorrentiService  {
+public class ContiCorrentiDaoProxy implements ContiCorrentiDao  {
     
-    private final ContiCorrentiDao contiCorrentiDao = SigebaDaoFactory.getContiCorrentiDao();
+    private final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl();
 
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String stringCC) {
-        return contiCorrentiDao.cercaCCPerCliente(cli, "");
+        return contiCorrentiService.cercaCCPerCliente(cli, "");
     }
 
     @Override
     public ContoCorrente salvaCC(ContoCorrente cc) {
-        return contiCorrentiDao.salvaCC(cc);
+        return contiCorrentiService.salvaCC(cc);
     }
 
     @Override
     public ContoCorrente leggiCC(Long id) {
-        return contiCorrentiDao.leggiCC(id);
+        return contiCorrentiService.leggiCC(id);
     }
 
     @Override
     public void rimuoviCC(Long id) {
-        contiCorrentiDao.rimuoviCC(id);
+        contiCorrentiService.rimuoviCC(id);
     }
-    
-    @Override
-    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
-        return contiCorrentiDao.cercaContoEsteso(stringCC);
+
+	@Override
+	public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+		return contiCorrentiService.cercaContoEsteso(stringCC);
 	}
     
     
