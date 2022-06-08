@@ -6,10 +6,8 @@ import com.iad.sigeba.service.ContiCorrentiService;
 import com.iad.sigeba.service.impl.ContiCorrentiServiceImpl;
 import java.util.List;
 
-public class ContiCorrentiServiceProxy implements ContiCorrentiService{
-  
-    
-    
+public class ContiCorrentiServiceProxy implements ContiCorrentiService {
+
     private final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl();
 
     @Override
@@ -24,7 +22,7 @@ public class ContiCorrentiServiceProxy implements ContiCorrentiService{
 
     @Override
     public ContoCorrente leggiCC(Long id) {
-       return contiCorrentiService.leggiCC(id);
+        return contiCorrentiService.leggiCC(id);
     }
 
     @Override
