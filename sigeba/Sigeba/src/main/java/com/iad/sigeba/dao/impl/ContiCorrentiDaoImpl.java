@@ -13,8 +13,15 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
 
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String cc) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        
+         List<ContoCorrente> risultato = new ArrayList<>();
+        for (ContoCorrente cc : contiCorrenti) {
+            if (cli.getNome().contains(Cliente cli, String cc)
+                    || cli.getCognome().contains(Cliente cli, String cc)) {
+                risultato.add(cc);
+            }
+        }
+
+        return risultato;
     }
     
     @Override
@@ -43,8 +50,17 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
 
     @Override
     public ContoCorrente leggiCC(Long idContoCorrente) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+         ContoCorrente risultato = null;
+        for (ContoCorrente cc : contiCorrenti) {
+            if (cc.getId().equals(idContoCorrente)) {
+                risultato = cc;
+                break;
+            }
+        }
+        return risultato;
+    } 
+
+  
 
     @Override
     public void rimuoviCC(Long idContoCorrente) {

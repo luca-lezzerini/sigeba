@@ -15,4 +15,6 @@ public interface ContiCorrentiService {
 
 	void rimuoviCC (Long id);
 
+    List<ContoCorrente> cercaContoEsteso (String stringCC);
+
 }
