@@ -49,4 +49,12 @@ public class ContiCorrentiServiceImpl implements ContiCorrentiService{
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
+    @Override
+    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+        if (stringCC == null || stringCC.contains(" ")) {
+            throw new RuntimeException();
+        }
+        return contiCorrentiDao.cercaContoEsteso(stringCC);
+    }
+    
 }

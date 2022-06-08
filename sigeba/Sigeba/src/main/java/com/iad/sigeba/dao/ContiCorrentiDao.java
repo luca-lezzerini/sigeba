@@ -13,6 +13,7 @@ import java.util.List;
  * @author Utente
  */
 public interface ContiCorrentiDao {
+	
     List<ContoCorrente> cercaCCPerCliente(Cliente cli,String cc);
 
     ContoCorrente salvaCC(ContoCorrente cc);
@@ -21,6 +22,5 @@ public interface ContiCorrentiDao {
 
     void rimuoviCC(Long idContoCorrente);
     
-   List<ContoCorrente> cercaContoEsteso(String cc); 
-    
+    List <ContoCorrente> cercaContoEsteso (String stringCC);
 }

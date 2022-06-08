@@ -31,11 +31,10 @@ public class ContiCorrentiDaoProxy implements ContiCorrentiService  {
         contiCorrentiService.rimuoviCC(id);
     }
 
-    @Override
-    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
-    return contiCorrentiService.cercaContoEsteso(stringCC);
-        
-    }
+	@Override
+	public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+		return contiCorrentiService.cercaContoEsteso(stringCC);
+	}
     
     
     
