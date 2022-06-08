@@ -1,13 +1,13 @@
 package com.iad.sigeba.proxies;
 
+import com.iad.sigeba.factories.SigebaServiceFactory;
 import com.iad.sigeba.model.Cliente;
 import com.iad.sigeba.service.ClientiService;
-import com.iad.sigeba.service.impl.ClientiServiceImpl;
 import java.util.List;
 
 public class ClientiServiceProxy implements ClientiService{
 
-    private final ClientiService clientiService = new ClientiServiceImpl();
+    private final ClientiService clientiService = SigebaServiceFactory.getClientiService();
     
     @Override
     public List<Cliente> cercaCliente(String cliente) {
