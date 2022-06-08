@@ -5,7 +5,7 @@ import com.iad.sigeba.model.ContoCorrente;
 import com.iad.sigeba.service.ContiCorrentiService;
 import java.util.List;
 
-public class CCServiceProxy implements ContiCorrentiService{
+public class ContiCorrentiServiceProxy implements ContiCorrentiService{
   
     
     
