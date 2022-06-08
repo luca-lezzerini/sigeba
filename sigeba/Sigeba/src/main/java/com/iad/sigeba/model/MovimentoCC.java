@@ -11,7 +11,7 @@ public class MovimentoCC {
     private LocalTime ora;
     private String causale;
 
-    public MovimentoCC(Long Id, Double importo, LocalDate data, LocalTime ora, String causale) {
+    public MovimentoCC(Long id, Double importo, LocalDate data, LocalTime ora, String causale) {
         this.id = id;
         this.importo = importo;
         this.data = data;
