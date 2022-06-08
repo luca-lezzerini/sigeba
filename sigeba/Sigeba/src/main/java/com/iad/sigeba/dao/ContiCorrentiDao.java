@@ -21,5 +21,6 @@ public interface ContiCorrentiDao {
 
     void rimuoviCC(Long idContoCorrente);
     
+   List<ContoCorrente> cercaContoEsteso(String cc); 
     
 }
