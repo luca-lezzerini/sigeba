@@ -5,7 +5,10 @@ import com.iad.sigeba.model.ContoCorrente;
 import com.iad.sigeba.service.ContiCorrentiService;
 import com.iad.sigeba.service.impl.ContiCorrentiServiceImpl;
 import java.util.List;
-
+/**
+ * 
+ * @author use
+ */
 public class ContiCorrentiServiceProxy implements ContiCorrentiService{
   
     
