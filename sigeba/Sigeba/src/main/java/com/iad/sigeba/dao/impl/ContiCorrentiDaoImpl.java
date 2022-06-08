@@ -6,17 +6,24 @@ import com.iad.sigeba.model.ContoCorrente;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContiCorrentiDaoImpl implements ContiCorrentiDao{
+public class ContiCorrentiDaoImpl implements ContiCorrentiDao {
 
-private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
+    private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
     private Long idCorrente = 1L;
 
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String cc) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-        
+        List<ContoCorrente> risultato = new ArrayList<>();
+        for (ContoCorrente cc : contiCorrenti) {
+            if (cc.getNome().contains(testoDaCercare)
+                    || cc.getCognome().contains(testoDaCercare)) {
+                risultato.add(cc);
+            }
+        }
+
+        return risultato;
     }
-    
+
     @Override
     public ContoCorrente salvaCC(ContoCorrente contoCorrenteDaSalvare) {
         ContoCorrente risultato = null;
@@ -43,7 +50,7 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
 
     @Override
     public ContoCorrente leggiCC(Long idContoCorrente) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return null;
     }
 
     @Override
@@ -55,9 +62,9 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
         }
     }
 
-	@Override
-	public List<ContoCorrente> cercaContoEsteso(String stringCC) {
-		return null;
-	}
+    @Override
+    public List<ContoCorrente> cercaContoEsteso(String stringCC) {
+        return null;
+    }
 
 }
