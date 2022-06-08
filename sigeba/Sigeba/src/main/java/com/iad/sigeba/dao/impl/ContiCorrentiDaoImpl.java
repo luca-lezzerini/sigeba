@@ -14,12 +14,7 @@ private final List<ContoCorrente> contiCorrenti = new ArrayList<>();
     @Override
     public List<ContoCorrente> cercaCCPerCliente(Cliente cli, String cc) {
          List<ContoCorrente> risultato = new ArrayList<>();
-        for (ContoCorrente cc : contiCorrenti) {
-            if (cli.getNome().contains(Cliente cli, String cc)
-                    || cli.getCognome().contains(Cliente cli, String cc)) {
-                risultato.add(cc);
-            }
-        }
+        
 
         return risultato;
     }
