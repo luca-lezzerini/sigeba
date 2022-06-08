@@ -11,6 +11,6 @@ import com.iad.sigeba.model.MovimentoCC;
  * @author Utente
  */
 public interface MovimentiDao {
-    void versa(MovimentoCC versa);
+    void versa(MovimentoCC versamento);
     
 }

@@ -2,12 +2,15 @@ package com.iad.sigeba.dao.impl;
 
 import com.iad.sigeba.dao.MovimentiDao;
 import com.iad.sigeba.model.MovimentoCC;
+import java.util.ArrayList;
+import java.util.List;
 
-public class MovimentiDaoImpl implements MovimentiDao{
+public class MovimentiDaoImpl implements MovimentiDao {
+
+    private final List<MovimentoCC> movimenti = new ArrayList<>();
 
     @Override
-    public void versa(MovimentoCC versa) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void versa(MovimentoCC versamento) {
+        movimenti.add(versamento);
     }
-    
 }
