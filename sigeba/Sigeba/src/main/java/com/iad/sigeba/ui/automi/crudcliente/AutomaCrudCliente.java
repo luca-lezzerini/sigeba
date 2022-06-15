@@ -5,74 +5,74 @@ import com.iad.sigeba.ui.automi.State;
 
 public class AutomaCrudCliente implements State {
 
-    private State stato;
-    private AutomaCrudClienteManageable gui;
+	private State stato;
+	private AutomaCrudClienteManageable gui;
 
-    public AutomaCrudCliente(AutomaCrudClienteManageable gui) {
-        this.gui = gui;
-        stato = new AttesaFiltroState();
-    }
+	public AutomaCrudCliente(AutomaCrudClienteManageable gui) {
+		this.gui = gui;
+		stato = new AttesaFiltroState();
+	}
 
-    @Override
-    public void next(Event ev) {
-        stato.next(ev);
-    }
+	@Override
+	public void next(Event ev) {
+		stato.next(ev);
+	}
 
-    private class AttesaFiltroState implements State {
+	private class AttesaFiltroState implements State {
 
-        public AttesaFiltroState() {
-            gui.setClientePanel(false);
-            gui.setSearchPanel(true);
-            gui.setTabellaClienti(false);
-        }
+		public AttesaFiltroState() {
+			gui.setClientePanel(false);
+			gui.setSearchPanel(true);
+			gui.setTabellaClienti(false);
+		}
 
-        @Override
-        public void next(Event ev) {
-            if (ev instanceof CercaEvent) {
-                stato = new VisualizzazioneRisultatiRicercaState();
-            } else {
-                System.out.println("Errore!");
-            }
-        }
-    }
+		@Override
+		public void next(Event ev) {
+			if (ev instanceof CercaEvent) {
+				stato = new VisualizzazioneRisultatiRicercaState();
+			} else {
+				System.out.println("Errore!");
+			}
+		}
+	}
 
-    private class VisualizzazioneRisultatiRicercaState implements State {
+	private class VisualizzazioneRisultatiRicercaState implements State {
 
-        public VisualizzazioneRisultatiRicercaState() {
-            gui.setClientePanel(true);
-            gui.setSearchPanel(true);
-            gui.setTabellaClienti(false);
-        }
+		public VisualizzazioneRisultatiRicercaState() {
+			gui.setClientePanel(true);
+			gui.setSearchPanel(true);
+			gui.setTabellaClienti(false);
+		}
 
-        @Override
-        public void next(Event ev) {
-            if (ev instanceof VersamentoEvent) {
-                stato = new CompilazioneDistintaVersamentoState();
-            } else if (ev instanceof CercaEvent) {
-                // niente da fare, rimane sullo stato
-            } else {
-                System.out.println("Errore!");
-            }
-        }
-    }
+		@Override
+		public void next(Event ev) {
+			if (ev instanceof VersamentoEvent) {
+				stato = new CompilazioneDistintaVersamentoState();
+			} else if (ev instanceof CercaEvent) {
+				// niente da fare, rimane sullo stato
+			} else {
+				System.out.println("Errore!");
+			}
+		}
+	}
 
-    private class CompilazioneDistintaVersamentoState implements State {
+	private class CompilazioneDistintaVersamentoState implements State {
 
-        public CompilazioneDistintaVersamentoState() {
-            gui.setClientePanel(false);
-            gui.setSearchPanel(false);
-            gui.setTabellaClienti(true);
-        }
+		public CompilazioneDistintaVersamentoState() {
+			gui.setClientePanel(false);
+			gui.setSearchPanel(false);
+			gui.setTabellaClienti(true);
+		}
 
-        @Override
-        public void next(Event ev) {
-            if (ev instanceof AnnullaEvent) {
-                stato = new AttesaFiltroState();
-            } else if (ev instanceof VersaEvent) {
-                stato = new AttesaFiltroState();
-            } else {
-                System.out.println("Errore!");
-            }
-        }
-    }
+		@Override
+		public void next(Event ev) {
+			if (ev instanceof AnnullaEvent) {
+				stato = new AttesaFiltroState();
+			} else if (ev instanceof VersaEvent) {
+				stato = new AttesaFiltroState();
+			} else {
+				System.out.println("Errore!");
+			}
+		}
+	}
 }

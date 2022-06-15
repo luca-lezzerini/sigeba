@@ -1,12 +1,10 @@
 package com.iad.sigeba.proxies;
 
-import com.iad.sigeba.dao.ClientiDao;
-import com.iad.sigeba.factories.SigebaDaoFactory;
 import java.util.List;
 
 import com.iad.sigeba.dao.ClientiDao;
+import com.iad.sigeba.factories.SigebaDaoFactory;
 import com.iad.sigeba.model.Cliente;
-import com.iad.sigeba.service.ClientiService;
 
 public class ClientiDaoProxy implements ClientiDao{
 

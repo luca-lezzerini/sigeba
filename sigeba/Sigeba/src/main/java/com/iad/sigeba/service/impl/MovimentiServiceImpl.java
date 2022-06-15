@@ -6,15 +6,15 @@ import com.iad.sigeba.model.MovimentoCC;
 import com.iad.sigeba.service.MovimentiService;
 
 public class MovimentiServiceImpl implements MovimentiService{
-    
-    private final MovimentiDao movimentiDao = SigebaDaoFactory.getMovimentiDao();
 
-    @Override
-    public void versa(MovimentoCC versa) {
-        if (versa == null) {
-            throw new RuntimeException();
-        }
-        movimentiDao.versa(versa);
-    }
-    
+	private final MovimentiDao movimentiDao = SigebaDaoFactory.getMovimentiDao();
+
+	@Override
+	public void versa(MovimentoCC versa) {
+		if (versa == null) {
+			throw new RuntimeException();
+		}
+		movimentiDao.versa(versa);
+	}
+
 }

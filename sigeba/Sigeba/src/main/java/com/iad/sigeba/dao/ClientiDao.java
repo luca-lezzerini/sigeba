@@ -1,16 +1,16 @@
 package com.iad.sigeba.dao;
 
-import com.iad.sigeba.model.Cliente;
 import java.util.List;
 
+import com.iad.sigeba.model.Cliente;
+
 public interface ClientiDao {
-    
-    List<Cliente> cercaCliente(String cliente);
 
-    Cliente salvaCliente(Cliente cli);
+	List<Cliente> cercaCliente(String cliente);
 
-    Cliente leggiCliente(Long idCli);
+	Cliente salvaCliente(Cliente cli);
 
-    void rimuoviCliente(Long idCli);
-    
+	Cliente leggiCliente(Long idCli);
+
+	void rimuoviCliente(Long idCli);
 }

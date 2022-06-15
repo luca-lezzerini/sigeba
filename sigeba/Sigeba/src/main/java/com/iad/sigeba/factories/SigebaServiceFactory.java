@@ -9,20 +9,20 @@ import com.iad.sigeba.service.impl.MovimentiServiceImpl;
 
 public class SigebaServiceFactory {
 
-    private static final ClientiService clientiService = new ClientiServiceImpl();
-    private static final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl() ;
-    private static final MovimentiService movimentiService = new MovimentiServiceImpl() ;
+	private static final ClientiService clientiService = new ClientiServiceImpl();
+	private static final ContiCorrentiService contiCorrentiService = new ContiCorrentiServiceImpl() ;
+	private static final MovimentiService movimentiService = new MovimentiServiceImpl() ;
 
 
-    public static ClientiService getClientiService() {
-        return clientiService;
-    }
-    
-    public static ContiCorrentiService getContiCorrentiService() {
-        return contiCorrentiService;
-    }
-    
-    public static MovimentiService getMovimentiService() {
-        return movimentiService;
-    }
+	public static ClientiService getClientiService() {
+		return clientiService;
+	}
+
+	public static ContiCorrentiService getContiCorrentiService() {
+		return contiCorrentiService;
+	}
+
+	public static MovimentiService getMovimentiService() {
+		return movimentiService;
+	}
 }
